@@ -6,6 +6,20 @@ int main() {
 	freopen("error.txt", "w", stderr);
 	freopen("output.txt", "w", stdout);
 #endif
+//different approch
+	// string a, b;
+	// cin >> a >> b;
+	// reverse(a.begin(), a.end());
+	// if (a == b) {
+	// 	cout << "YES";
+	// } else {
+	// 	cout << "NO";
+	// }
+
+
+
+
+
 	string s, t;
 	cin >> s >> t;
 	int l1 = s.length();
